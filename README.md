@@ -1,5 +1,6 @@
 # xv6-os-file
-here is the file to install xv6-os on ubuntu with all the required changes
+here is the file to install xv6-os on ubuntu with all the required changes:
+
 INSTALLATION OF XV6 ON LINUX
 
 STEP 1:OPEN TERMINAL
