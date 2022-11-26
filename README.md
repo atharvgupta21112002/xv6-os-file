@@ -34,3 +34,31 @@ STEP 13: Now type :-
 make qemu(TO GET VISUAL INTERFACE) 
                          OR
 make qemu-nox(TO GET COMMAND LINE INTERFACE)
+
+TRACING OF XV6-OS
+
+In terminal
+ trd
+
+ echo Hi (user space program made no changes)
+
+ trace
+
+ echo Hi
+
+ echo Hi &gt; NewFile (output redirected)
+
+ cat NewFile
+
+ rm NewFile (unlink )
+
+ mkdir NewDir (mkdir system call)
+
+ rm NewDir
+
+ untrace
+
+ echo (will not show trace output)
+
+ cat README.md
+
