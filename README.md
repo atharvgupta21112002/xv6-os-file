@@ -35,7 +35,10 @@ make qemu(TO GET VISUAL INTERFACE)
                          OR
 make qemu-nox(TO GET COMMAND LINE INTERFACE)
 
+
+
 TRACING OF XV6-OS
+
 
 In terminal
  trd
