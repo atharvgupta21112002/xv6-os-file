@@ -40,28 +40,29 @@ make qemu-nox(TO GET COMMAND LINE INTERFACE)
 TRACING OF XV6-OS
 
 
-In terminal
- trd
+In terminal PRESS following commands:-
 
- echo Hi (user space program made no changes)
+-trd
 
- trace
+-echo Hi (user space program made no changes)
 
- echo Hi
+-trace
 
- echo Hi &gt; NewFile (output redirected)
+-echo Hi
 
- cat NewFile
+-echo Hi &gt; NewFile (output redirected)
 
- rm NewFile (unlink )
+-cat NewFile
 
- mkdir NewDir (mkdir system call)
+-rm NewFile (unlink )
 
- rm NewDir
+-mkdir NewDir (mkdir system call)
 
- untrace
+-rm NewDir
 
- echo (will not show trace output)
+-untrace
 
- cat README.md
+-echo (will not show trace output)
+
+-cat README.md
 
